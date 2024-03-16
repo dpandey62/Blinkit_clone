@@ -1,0 +1,30 @@
+.multi_product .d-flex {
+    flex-wrap: wrap;
+}
+
+.multi_product .d-flex .card_custom {
+    width: 10%;
+}
+
+@media only screen and (max-width:992px) {
+    .multi_product .d-flex .card_custom {
+        width: 20%;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .multi_product .d-flex .card_custom {
+        width: 33%;
+    }
+}
+
+#raw {
+    border: 1px solid rgb(49, 134, 22);
+    color: rgb(49, 134, 22);
+    background-color: rgb(247, 255, 249);
+}
+
+.footer-class img {
+    height: auto;
+    width: 100%;
+}
